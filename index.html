@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Spotify - Web Player: Music for everyone</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utility.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -38,29 +38,46 @@
             </div>
         </div>
 
-        <div class="right bg-grey rounded">
+        <div class="right rounded">
             <div class="header flex p-1">
-                <div class="nav ">
+                <div class="nav">
                     <i class="fa-solid fa-chevron-left"></i>
                     <i class="fa-solid fa-chevron-right"></i>
                 </div>
                 <div class="buttons">
-                    <button>Signup</button>
-                    <button>Login</button>
+                    <button class="signupbtn">Sign Up</button>
+                    <button class="loginbtn">Log in</button>
                 </div>
             </div>
             <div class="playlists p-1">
-                <h2>Spotify Playlists</h3>
+                <h2>Spotify Playlists</h2>
                 <div class="card-container">
                     <div class="card">
+                        <div class="play-button">
+                            <img class="play" src="icons/play.svg" alt="">
+                        </div>
                         <img src="https://i.scdn.co/image/ab67706f0000000254473de875fea0fd19d39037" alt="">
-                        <h2>lofi beats</h2>
+                        <h4>lofi beats</h4>
                         <p>chill beats, lofi vibes, new tracks everyday</p>
+                    </div>
+                </div>
+                <div class="playbar">
+                    <div class="songinfo">
+
+                    </div>
+                    <div class="songbtns">
+                        <i class="fa-solid fa-backward-step"></i>
+                        <i class="fa-solid fa-circle-play"></i>
+                        <i class="fa-solid fa-forward-step"></i>
+                    </div>
+                    <div class="songtime">
+                        
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
