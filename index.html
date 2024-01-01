@@ -27,6 +27,9 @@
                 <div class="heading">
                     <img class="invert" src="icons/playlist.svg" alt="">Your Library
                 </div>
+                <div class="songList">
+                    <ul></ul>
+                </div>
                 <div class="footer">
                     <div><a href="https://www.spotify.com/sg-en/legal/"><span>Legal</span></a></div>
                     <div><a href="https://www.spotify.com/sg-en/privacy/"><span>Privacy Center</span></a></div>
@@ -62,16 +65,21 @@
                     </div>
                 </div>
                 <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
                     <div class="songinfo">
 
                     </div>
                     <div class="songbtns">
-                        <i class="fa-solid fa-backward-step"></i>
-                        <i class="fa-solid fa-circle-play"></i>
-                        <i class="fa-solid fa-forward-step"></i>
+                        <i id="previous" class="fa-solid fa-backward-step"></i>
+                        <i id="play" class="fa-solid fa-circle-play"></i>
+                        <i id="next" class="fa-solid fa-forward-step"></i>
                     </div>
                     <div class="songtime">
-                        
+                         
                     </div>
                 </div>
             </div>
