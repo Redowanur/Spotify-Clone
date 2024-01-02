@@ -92,9 +92,9 @@ body{
     background-color: #3a3939;
 }
 
-.playnow{
+/* .playnow{
     
-}
+} */
 
 .library{
     height: 63vh;
@@ -255,6 +255,7 @@ body{
     position: absolute;
     top: 0px;
     left: 0.5px;
+    cursor: pointer;
 }
 
 .circle{
@@ -270,4 +271,10 @@ body{
 
 .songbtns i{
     cursor: pointer;
+}
+
+.song-control{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
 }
